@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow:hidden;
+}
+
+html,body,#app {
+	width:100%;
+	height:100%;
+}
+
+/** Game **/
+
+.grab {
+  cursor:grab !important;
+}
+
+.object_ball {
+  cursor:grab;
+}
+.render {
+  background:#222222;
+}
+.score,.hole,.options,.title {
+  font-family: 'Luckiest Guy', cursive !important;
+  font-weight:bold;
+  font-size:1.2em;
+  text-shadow: -1px 1px 2px #000,
+          1px 1px 2px #000,
+          1px -1px 0 #000,
+          -1px -1px 0 #000;
+}
+.options {
+  font-size:1.4em;
+}
+.strokes,.par {
+  width:100%;
+  text-align:center;
+}
+.strokes,.hole {
+  margin-bottom:-6px;
+}
+.par {
+  font-size:0.9em;
+}
+.title {
+  font-size:1em;
+}
+.hidden {
+  display:none;
+}
